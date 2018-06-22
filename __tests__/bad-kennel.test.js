@@ -42,6 +42,7 @@ describe('getBackwardsNames', () => {
 
     expect(kennel.getBackwardsNames()).toEqual(['derF', 'nasuS']);
     // this test is reliant on the behaviour of the animal class
+    // this behaviour has already been tested in our animal test - so we are actually repeating ourselves
     // if we change the code in animal.js so Animal.getBackwardsName returns uppercase strings, it would break this test
     // changing code in the animal class SHOULD NOT break our kennel test
   });
